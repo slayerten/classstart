@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# this is a demo for class
 
 class Student(object):
     def __init__(self,name,score):

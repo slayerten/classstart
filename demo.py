@@ -8,7 +8,7 @@ class Student(object):
         self.score = score
 
     def print_demo(self):
-        print '%s:%s:%s'%(self.name,self.score,self.print_aa)
+        print '%s:%s:'%(self.name,self.score),self.print_aa()
         
 
     def print_aa(self):

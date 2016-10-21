@@ -1,5 +1,6 @@
 #! /usr/bin/python
-# this is a demo for class
+# this is a demo for class learn
+# I will learn python class
 
 class Student(object):
     def __init__(self,name,score):
@@ -7,7 +8,7 @@ class Student(object):
         self.score = score
 
     def print_demo(self):
-        print '%s:%s:'%(self.name,self.score),self.print_aa()
+        print '%s:%s:%s'%(self.name,self.score,self.print_aa)
         
 
     def print_aa(self):
@@ -21,6 +22,8 @@ class Student(object):
 Wolf = Student('Wolf Cui',99)
 John = Student('John Lily',86)
 Q = Student('Q Yang',55)
+Jam = Student("Jam Hook",88)
 Wolf.print_demo()
 John.print_demo()
 Q.print_demo()
+Jam.print_demo()
